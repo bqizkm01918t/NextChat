@@ -78,7 +78,6 @@ const en: LocaleType = {
         dark: "Dark Theme",
       },
       Prompt: "Prompts",
-      Masks: "Masks",
       Clear: "Clear Context",
       Settings: "Settings",
       UploadImage: "Upload Images",
