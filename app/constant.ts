@@ -46,14 +46,12 @@ export enum Path {
   Chat = "/chat",
   Settings = "/settings",
   NewChat = "/new-chat",
-  Masks = "/masks",
   Plugins = "/plugins",
   Auth = "/auth",
   Sd = "/sd",
   SdNew = "/sd-new",
   Artifacts = "/artifacts",
   SearchChat = "/search-chat",
-  McpMarket = "/mcp-market",
 }
 
 export enum ApiPath {
@@ -83,7 +81,6 @@ export enum SlotID {
 }
 
 export enum FileName {
-  Masks = "masks.json",
   Prompts = "prompts.json",
 }
 
@@ -92,12 +89,10 @@ export enum StoreKey {
   Plugin = "chat-next-web-plugin",
   Access = "access-control",
   Config = "app-config",
-  Mask = "mask-store",
   Prompt = "prompt-store",
   Update = "chat-update",
   Sync = "sync",
   SdList = "sd-list",
-  Mcp = "mcp-store",
 }
 
 export const DEFAULT_SIDEBAR_WIDTH = 300;
